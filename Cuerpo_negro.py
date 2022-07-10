@@ -24,7 +24,7 @@ def planck(wav, T):
 wavelengths = np.arange(1e-9, 3e-6, 1e-9) 
 
 
-intensity5000 = planck(wavelengths, 5000.)
+intensity5000 = planck(wavelengths, 45000.)
 
 
 
