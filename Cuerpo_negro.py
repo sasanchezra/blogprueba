@@ -12,7 +12,7 @@ import numpy as np
 h = 6.626e-34
 c = 3.0e+8
 k = 1.38e-23
-
+sun = 5000
 def planck(wav, T):
     a = 2.0*h*c**2
     b = h*c/(wav*k*T)
